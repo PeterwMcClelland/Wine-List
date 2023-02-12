@@ -22,12 +22,13 @@ This is a basic program to store wine information using REST API with CRUD opera
 
 ## How to run 
 
-1. Download this software to your machine, e.g. `git clone PeterwMcClelland/wine-index-app`
-2. Navigate into the directory, e.g. `cd wine-index-app`
+1. Download this software to your machine, e.g. `git clone PeterwMcClelland/wine-list`
+2. Navigate into the directory, e.g. `cd wine-list`
 3. Install the dependencies, e.g. `npm i`
-4. Run the backend file, e.g. `npm start`
-5. Navigate to e.g. `cd wine-list-app`
-6. Run with e.g. `npm start`
+4. cd to backend folder, e.g. `npm start`
+4. Run the backend folder, e.g. `npm start`
+6. cd back to wine-list folder e.g. `cd ..`
+5. Then run with e.g. `npm start`
 
 ## Questions
 
