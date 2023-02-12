@@ -20,7 +20,7 @@ mongoose.connect(
     process.env.DB_URI
     ).then(() => console.log("DataBase Connected!"))
     .then(() => {
-        app.listen(3000);
+        app.listen.PORT || 3000;
     }).catch((err)=>console.log(err));
 
 
