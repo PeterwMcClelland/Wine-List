@@ -1,0 +1,129 @@
+.background {
+    background-image: url(../../assets/images/il_fullxfull.2889660441_fkyo.webp);
+    background-size: 100%;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+.background-home {
+    background-image: url(../../assets/images/il_fullxfull.2889660441_fkyo.webp);
+    height: 1000px;
+    background-size: 100%;
+    background-repeat: repeat;
+    background-attachment: fixed;
+   background-position: center;
+}
+
+header {
+    position: sticky; top: 0;
+    z-index: 9999;
+}
+
+.home-header {
+    text-align: -webkit-center;
+    padding-top: 50px;
+}
+
+.home-h1 {
+    margin: 0px;
+    font-size: 100px;
+    border-radius: 5px;
+    width: -moz-fit-content;
+    
+    color: floralwhite;
+    padding: 10px;
+    font-size: xxx-large;
+}
+
+/* Wine List */
+
+ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    gap: 10px;
+}
+
+li {
+    padding: 5px;
+    width: 250px;
+    max-width: 250px;
+    /* max-height: 650px; */
+    list-style-type: none;
+}
+
+.card {
+    border-radius: 5px;
+    opacity: .9;
+    padding: 1rem;
+    width:600px;
+    display: table;
+    background-color:floralwhite;
+    height: 100;
+    box-shadow: 5px 5px 10px #ccc;
+    align-items: center;
+    content: "";
+}
+
+.card img {
+    width: 25%;
+  }
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+
+/* Add Wine */
+
+
+
+.css-3wzfo5 {
+    margin: 20px;
+    background-color: floralwhite;
+    padding: 30px;
+    box-shadow: 5px 5px 10px #ccc;
+}
+
+
+
+@media (max-width: 600px) {
+    .home-h1 {
+        display: none;
+    }
+
+    .card {
+        border-radius: 5px;
+        opacity: .9;
+        padding: 1rem;
+        width: 300px;
+        display: grid;
+        background-color:floralwhite;
+        height: 100;
+        box-shadow: 5px 5px 10px #ccc;
+        align-items: center;
+        content: "";
+    }
+
+    .column {
+        
+        width: 100%;
+        text-align-last: center;
+    }
+
+    li {
+        padding: 5px;
+        width: 250px;
+        max-width: 250px;
+        list-style-type: none;
+    }
+
+    h1, h2, h3 {
+        font-size: medium;
+    }
+
+    li {
+        font-size: small;
+    }
+  }
