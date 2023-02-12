@@ -12,6 +12,7 @@ function App() {
     <header className="header">
       <Header />
     </header>
+    
     <main>
       <Routes>
         <Route path="/" element={<Home />} exact />
