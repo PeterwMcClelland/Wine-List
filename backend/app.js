@@ -9,7 +9,7 @@ require("dotenv").config({ path: path.resolve(__dirname, '../.env') });
 
 const app = express();
 
-
+const PORT = process.env.PORT || 3000;
 
 // middlewares
 app.use(express.json());
@@ -20,7 +20,9 @@ mongoose.connect(
     process.env.DB_URI
     ).then(() => console.log("DataBase Connected!"))
     .then(() => {
-        app.listen(process.env.PORT || 3000, (e) => { console.log('Connected!'); });
+        app.listen(PORT, () => {
+            console.warn(`App listening on http://localhost:${PORT}`);
+          });
     }).catch((err)=>console.log(err));
 
 
