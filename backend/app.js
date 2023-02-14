@@ -17,7 +17,10 @@ app.use(cors());
 app.use("/wines", router);// localhost:3000/wines
 
 mongoose.connect(
-    process.env.DB_URI
+    process.env.DB_URI {
+        useNewUrlParser: true,
+               useUnifiedTopology: true,
+    }
     ).then(() => console.log("DataBase Connected!"))
     .then(() => {
         app.listen(PORT, () => {
