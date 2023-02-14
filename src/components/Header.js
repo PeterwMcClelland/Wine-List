@@ -9,6 +9,7 @@ export const Header = () => {
     <div>
         <AppBar sx={{backgroundColor:'#232F3D'}} position="sticky">
             
+            
         <Toolbar>
             <Typography>
                 <WineBarIcon fontSize="large" />
