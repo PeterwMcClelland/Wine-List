@@ -9,7 +9,7 @@ export const Header = () => {
     <div>
         <AppBar sx={{backgroundColor:'#232F3D'}} position="sticky">
             
-            
+
         <Toolbar>
             <Typography>
                 <WineBarIcon fontSize="large" />
@@ -23,7 +23,7 @@ export const Header = () => {
             value={value} 
             onChange={( e, val) => setValue(val)}
             >
-                    <Tab LinkComponent={NavLink} to="/" label='Home'/>
+                    <Tab LinkComponent={NavLink} to="/Wine-List" label='Home'/>
                     <Tab LinkComponent={NavLink} to="/wines" label='All Wines'/>
                     <Tab LinkComponent={NavLink} to="/add" label='Add Wine'/>
                     {/* <Tab LinkComponent={NavLink} to="/about" label='About Us'/> */}
