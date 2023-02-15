@@ -1,7 +1,7 @@
 {
   "name": "wine-list-app",
   "version": "0.1.0",
-  "homepage": "https://PeterwMcClelland.github.io/Wine-List",
+  "homepage": "https://PeterwMcClelland.github.io/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",
