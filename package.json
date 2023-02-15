@@ -45,6 +45,10 @@
       "last 1 safari version"
     ]
   },
+  "engines": {
+    "npm": "9.4.2",
+    "node": "19.5.0" 
+  },
   "devDependencies": {
     "gh-pages": "^5.0.0"
   }
