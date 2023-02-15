@@ -25,7 +25,7 @@ This is a basic program to store wine information using REST API with CRUD opera
 1. Download this software to your machine, e.g. `git clone PeterwMcClelland/wine-list`
 2. Navigate into the directory, e.g. `cd wine-list`
 3. Install the dependencies, e.g. `npm i`
-4. Set up MongoDB. Create cluster in MongoDB, (https://www.mongodb.com/basics/clusters/mongodb-cluster-setup)
+4. Set up MongoDB. Create cluster in MongoDB, (https://www.mongodb.com/)
 - Create DataBase called `wine-index` 
 - Create Collection called `wines`
 5. cd to backend folder, `cd backend` then `npm i`
