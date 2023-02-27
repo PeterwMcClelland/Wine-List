@@ -21,6 +21,7 @@ function App() {
         <Route path="/about" element={<About />} exact />
         <Route path="/wines/:id" element={<WineDetail/>} exact />
       </Routes>
+      
     </main>
 
     </React.Fragment>;
