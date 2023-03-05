@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 3000;
 // middlewares
 app.use(express.json());
 app.use(cors());
-app.use("/wines", router);// localhost:3000/wines
+app.use("/", router);// localhost:3000/wines
 
 mongoose.connect(
     process.env.MONGODB_URI, {
@@ -26,7 +26,7 @@ mongoose.connect(
         app.listen(PORT, () => {
             console.warn(`App listening on http://localhost:${PORT}`);
           });
-          
+
     }).catch((err)=>console.log(err));
 
 
