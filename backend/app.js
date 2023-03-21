@@ -9,7 +9,7 @@ require("dotenv").config({ path: path.resolve(__dirname, '../.env') });
 
 const app = express();
 
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 3000;
 
 // middlewares
 app.use(express.json());
