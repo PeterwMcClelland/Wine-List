@@ -9,8 +9,6 @@ router.get("/:id", winesController.getById);
 router.put("/:id", winesController.updateWine);
 router.delete("/:id", winesController.deleteWine);
 
-app.get("/*", function (req, res) {
-    res.sendFile(path.resolve(__dirname, '../client/build', 'index.html'));
-})
+
 
 module.exports = router;
