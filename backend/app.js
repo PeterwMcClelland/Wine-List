@@ -18,8 +18,8 @@ app.use("/wines", router);// localhost:3000/wines
 
 mongoose.connect(
     process.env.MONGODB_URI, {
-        useNewUrlParser: true,
-        useUnifiedTopology: true,
+        useNewUrlParser: false,
+        useUnifiedTopology: false,
     }
     ).then(() => console.log("DataBase Connected!"))
     .then(() => {
