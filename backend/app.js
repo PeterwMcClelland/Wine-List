@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 8000;
 // middlewares
 app.use(express.json());
 app.use(cors());
-app.use("/wines", router);// localhost:3000/wines
+app.use("/", router);// localhost:3000/wines
 
 mongoose.connect(
     process.env.MONGODB_URI, {
