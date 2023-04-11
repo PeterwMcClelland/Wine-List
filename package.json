@@ -23,13 +23,11 @@
   },
   "scripts": {
     "dev": "react-scripts start",
-    "start": "cd ./backend/ && npm install && node app.js",
-    "backend": "cd ./backend/ && nodemon server.js ",
-    "frontend": "cd ./frontend/ && run start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "heroku-postbuild": "cd ./frontend/ && npm install && npm run build"
+    "heroku-postbuild": "npm run build"
     },
 
  

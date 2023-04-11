@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import axios from 'axios';
 import Wine from "./Wine";
 import "./Wine.css";
-const URL = "http://localhost:3001/wines"; 
+const URL = "http://localhost:3000/wines"; 
  
 
 const fetchHandler = async() => {
