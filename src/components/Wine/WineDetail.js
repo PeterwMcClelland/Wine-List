@@ -129,6 +129,7 @@ const WineDetail = () => {
       margin='normal' 
       fullWidth variant='outlined' 
       name="bottlingdate" />
+      
       <FormLabel>Alcohol</FormLabel>
       <TextField 
       value={inputs.alcohol} 

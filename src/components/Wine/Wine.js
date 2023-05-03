@@ -3,7 +3,7 @@ import React from 'react';
 import "./Wine.css";
 import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
-// import { Zoom } from 'react-medium-image-zoom'
+
 
 const Wine = (props) => {
     const history = useNavigate()
@@ -40,6 +40,7 @@ const Wine = (props) => {
       
       <Button LinkComponent={Link} to={`/Wines/${_id}`}> Update</Button>
       <Button onClick={deleteHandler}>Delete</Button>
+
       </div>;
   
 };
