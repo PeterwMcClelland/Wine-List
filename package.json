@@ -23,11 +23,12 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node backend/app.js && serve -s build",
     "server": "node backend/app.js",
     "dev": "concurrently \"npm run server\" \"npm run start\"",
+    "build": "react-scripts build",
     "heroku-postbuild": "npm run build"
-  },
+},
   "eslintConfig": {
     "extends": [
       "react-app",
