@@ -24,7 +24,7 @@
   "scripts": {
     "dev": "react-scripts start",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "cd ../ && npm run build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "heroku-postbuild": "cd backend && npm install && npm run build"
