@@ -1,1 +1,1 @@
-web: node backend/app.js & serve -s build
+web: node backend/app.js
