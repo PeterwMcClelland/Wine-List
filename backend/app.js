@@ -16,13 +16,6 @@ app.use(express.json());
 app.use(cors());
 app.use("/wines", router);// localhost:3000/wines
 
-var corsOptions = {
-    origin: 'https://wine-list.herokuapp.com/', // replace with your own origin
-    optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
-}
-
-app.use(cors(corsOptions));
-
 mongoose.connect(
     process.env.MONGODB_URI, {
         useNewUrlParser: true,
@@ -36,6 +29,9 @@ mongoose.connect(
 
           
     }).catch((err)=>console.log(err));
+
+
+
 
 
 
