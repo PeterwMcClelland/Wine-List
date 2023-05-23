@@ -28,7 +28,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "heroku-postbuild": "cd frontend && npm install && npm run build",
-    "deploy": "cd backend && npm install && cd ../frontend && npm install && npm run build"
+    "deploy": "cd backend && npm install && cd ../ && npm install && npm run build"
   },
 
  
