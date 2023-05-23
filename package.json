@@ -22,13 +22,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "dev": "react-scripts start",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "heroku-postbuild": "cd frontend && npm install && npm run build",
-    "deploy": "cd backend && npm install && cd ../ && npm install && npm run build"
+    "start": "node backend/app.js",
+    "dev": "nodemon backend/app.js"
   },
 
  
