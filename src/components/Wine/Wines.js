@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react'
 import axios from 'axios';
 import Wine from "./Wine";
 import "./Wine.css";
-const URL = "http://localhost:3000/wines"; 
+const URL = process.env.NODE_ENV === "production" ? "https://wine-list.herokuapp.com/wines" : "http://localhost:3000/wines";
+
  
 
 const fetchHandler = async() => {
